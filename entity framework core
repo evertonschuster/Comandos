@@ -1,0 +1,5 @@
+Add-Migration {nome}              - Gera um pacote de Atualizacao
+Update-Database -verbose          - Sobe atualizacao para o banco de Dados
+
+
+
