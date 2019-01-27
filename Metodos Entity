@@ -1,0 +1,4 @@
+.Include(p => p.Itens)                - Faz o JOIN
+.ThenInclude(i => i.Produto)          - Realiza o JOIN sobre o JOIN
+.Where(p => p.Id == pedidoId)         -
+.SingleOrDefault();                   - 
