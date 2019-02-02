@@ -1,4 +1,11 @@
-.Include(p => p.Itens)                - Faz o JOIN
-.ThenInclude(i => i.Produto)          - Realiza o JOIN sobre o JOIN
+.Include(p => p.Itens)                - pega tabela relacionada
+.ThenInclude(i => i.Produto)          -  pegar tabelas em um segundo nivel (segundo... JOIN)(Realiza o JOIN sobre o JOIN)
 .Where(p => p.Id == pedidoId)         -
 .SingleOrDefault();                   - 
+.Load()                               -> carrega os objetos relacionado, que ainda nao foram caregados, (Objetos internos)
+
+
+.Collection(p => p.Compras)            //pega a colecao de Compras
+.Query()                               //realiza uma consulta  
+.Where(c => c.Preco > 9)               //com a WHERE
+.Load();                               //carrega para a referencia de produtos
