@@ -1,4 +1,8 @@
-Add-Migration {nome}              - Gera um pacote de Atualizacao
+Add-Migration {nome}                                          - Gera um pacote de Atualizacao
+  Add-Migration MyFirstMigration -Context FinancaContexto
+Remove-Migration                                              - Desfaz Migration
+
+
 Update-Database -verbose          - Sobe atualizacao para o banco de Dados
 
 
