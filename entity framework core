@@ -7,3 +7,4 @@ Update-Database -verbose          - Sobe atualizacao para o banco de Dados
 
 
 
+Script-Migration                                                - script da Migration
