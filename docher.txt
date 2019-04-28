@@ -1,0 +1,7 @@
+dotnet publish -c Release
+heroku login
+heroku container:login
+docker build -t gestaopessoal2 C:\\Users\\Ever\\source\\repos\\GestaoFinancaPessoal\\GestaoFinancaPessoal\\GestaoFinancaPessoal\\bin\\Release\\netcoreapp2.2\\publish
+docker tag gestaopessoal2 registry.heroku.com/gestaopessoal2/web
+docker push registry.heroku.com/gestaopessoal2/web
+heroku container:release web --app gestaopessoal2
