@@ -2,6 +2,13 @@ ctrl 0 - exibe tudo
 ctrl 1 - zoon 100%
 ctrl 2 - zoom 20%
 ctrl 3 - foca no componente
+
 ctrl d - clona 
+ctrl g - grupo
+ctrl l - locked 
+ctrl ; - visivel 
+ctrl k - cria simbolo 
+
 crtl shift ' - oculta/exibe grid
 alt - distancia en relação ao componente
+
