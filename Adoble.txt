@@ -1,0 +1,6 @@
+ctrl 0 - exibe tudo
+ctrl 1 - zoon 100%
+ctrl 2 - zoom 20%
+ctrl 3 - foca no componente
+ctrl d - clona 
+crtl shift ' - oculta/exibe grid
