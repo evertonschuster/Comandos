@@ -4,3 +4,4 @@ ctrl 2 - zoom 20%
 ctrl 3 - foca no componente
 ctrl d - clona 
 crtl shift ' - oculta/exibe grid
+alt - distancia en relação ao componente
