@@ -12,3 +12,4 @@ heroku container:release web --app gestaopessoal2
 Limpar imagens 
   - docker images 
   - docker rmi --force 'image id'
+  - docker system pruna -a
