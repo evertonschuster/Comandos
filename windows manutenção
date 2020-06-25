@@ -1,3 +1,7 @@
 limpar chache 
   npm cache clean --force 
   dotnet nuget locals all --clear
+  rm -rf bower_components
+  bower cache clean
+  bower install
+  bower prune
