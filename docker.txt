@@ -13,6 +13,7 @@ Limpar imagens
   - docker images 
   - docker rmi --force 'image id'
   - docker system prune -a
+  - docker system prune --all --force --volumes
 
 
 Habilitar maquina virtual dentro de uma maquina hyper-v
